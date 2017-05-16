@@ -1,0 +1,40 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/anguar-src/dist
+/anguar-src/tmp
+/anguar-src/out-tsc
+
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/anguar-src/.sass-cache
+/anguar-src/connect.lock
+/anguar-src/coverage
+/anguar-src/libpeerconnection.log
+/anguar-srcnpm-debug.log
+/anguar-srctestem.log
+/anguar-src/typings
+
+# e2e
+/anguar-src/e2e/*.js
+/anguar-src/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
